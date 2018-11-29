@@ -2,7 +2,7 @@
 
 // initialize map
 var map = L.map("map", {
-    center: [46.73, -92.107],
+    center: [46.765, -92.107],
     zoom: 11
 });
 
@@ -174,6 +174,8 @@ function mapHoverHandler(eventObject) {
     
     
 }
+//Nothing worked with the mouse over for lat/long
+    
   	//  - second, register an event listener with the map
   	//    (something like map.on(....))
 map.on('mousemove', mapHoverHandler);
